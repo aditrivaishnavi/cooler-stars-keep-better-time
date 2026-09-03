@@ -1,0 +1,4 @@
+data/lightcurves/*/mastDownload/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
