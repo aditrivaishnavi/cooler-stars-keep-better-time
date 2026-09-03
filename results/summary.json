@@ -1,0 +1,217 @@
+{
+ "stars": {
+  "original": 450,
+  "replication": 422
+ },
+ "sectors": {
+  "original": 4317,
+  "replication": 4016
+ },
+ "trend": [
+  {
+   "sample": "original",
+   "floor": "shifted",
+   "n": 450,
+   "spearman_rho": 0.4377372357550573,
+   "coef": 0.12704302848526133,
+   "se": 0.020757949355410955,
+   "t": 6.120210927874971,
+   "step": -0.004555945939906048,
+   "step_se": 0.04163162774192951,
+   "step_t": -0.10943472996414942
+  },
+  {
+   "sample": "original",
+   "floor": "white",
+   "n": 450,
+   "spearman_rho": 0.6748151628610635,
+   "coef": 0.2788714799836985,
+   "se": 0.028735208811539056,
+   "t": 9.70487048876824,
+   "step": 0.04327861980590075,
+   "step_se": 0.058365720483957585,
+   "step_t": 0.7415075055536464
+  },
+  {
+   "sample": "replication",
+   "floor": "shifted",
+   "n": 422,
+   "spearman_rho": 0.4316731030397206,
+   "coef": 0.10885430890405282,
+   "se": 0.022813907783399003,
+   "t": 4.77140128458233,
+   "step": 0.03688063554230325,
+   "step_se": 0.03663847713345091,
+   "step_t": 1.0066094015853964
+  },
+  {
+   "sample": "replication",
+   "floor": "white",
+   "n": 422,
+   "spearman_rho": 0.6726938636361844,
+   "coef": 0.2438634364751379,
+   "se": 0.030134523149740564,
+   "t": 8.092493624782557,
+   "step": 0.061845838854469815,
+   "step_se": 0.053338968646118534,
+   "step_t": 1.1594869646766282
+  }
+ ],
+ "fixed_bar": [
+  {
+   "sample": "original",
+   "floor": "shifted",
+   "cool_lt_3400": "18% of 60",
+   "hot_ge_5000": "83% of 150"
+  },
+  {
+   "sample": "original",
+   "floor": "white",
+   "cool_lt_3400": "22% of 60",
+   "hot_ge_5000": "88% of 150"
+  },
+  {
+   "sample": "replication",
+   "floor": "shifted",
+   "cool_lt_3400": "15% of 52",
+   "hot_ge_5000": "78% of 130"
+  },
+  {
+   "sample": "replication",
+   "floor": "white",
+   "cool_lt_3400": "25% of 52",
+   "hot_ge_5000": "88% of 130"
+  }
+ ],
+ "period_dependence": [
+  {
+   "sample": "original",
+   "floor": "shifted",
+   "group": "cool 3000-3800 K",
+   "n": 92,
+   "estimate": 0.1867903034587518,
+   "hc_se": 0.05808381745135357,
+   "t": 3.215875120728638
+  },
+  {
+   "sample": "original",
+   "floor": "shifted",
+   "group": "mid 3800-4800 K",
+   "n": 136,
+   "estimate": 0.1340779285930106,
+   "hc_se": 0.042816882959828544,
+   "t": 3.13142665520058
+  },
+  {
+   "sample": "original",
+   "floor": "shifted",
+   "group": "hot 4800-6000 K",
+   "n": 171,
+   "estimate": -0.032400582049115556,
+   "hc_se": 0.04819677992661927,
+   "t": -0.6722561569143458
+  },
+  {
+   "sample": "original",
+   "floor": "white",
+   "group": "cool 3000-3800 K",
+   "n": 112,
+   "estimate": 0.18162248911184187,
+   "hc_se": 0.044348487599596115,
+   "t": 4.095347980107802
+  },
+  {
+   "sample": "original",
+   "floor": "white",
+   "group": "mid 3800-4800 K",
+   "n": 145,
+   "estimate": 0.15088221102094723,
+   "hc_se": 0.031199286912395114,
+   "t": 4.8360788323339365
+  },
+  {
+   "sample": "original",
+   "floor": "white",
+   "group": "hot 4800-6000 K",
+   "n": 180,
+   "estimate": 0.04215428989280534,
+   "hc_se": 0.04301396067240102,
+   "t": 0.9800141450320508
+  },
+  {
+   "sample": "replication",
+   "floor": "shifted",
+   "group": "cool 3000-3800 K",
+   "n": 86,
+   "estimate": 0.10243083031084665,
+   "hc_se": 0.05253902067307549,
+   "t": 1.9496143818177232
+  },
+  {
+   "sample": "replication",
+   "floor": "shifted",
+   "group": "mid 3800-4800 K",
+   "n": 127,
+   "estimate": 0.09537649645778888,
+   "hc_se": 0.04079416925532845,
+   "t": 2.3379933504916512
+  },
+  {
+   "sample": "replication",
+   "floor": "shifted",
+   "group": "hot 4800-6000 K",
+   "n": 149,
+   "estimate": 0.024261159676619126,
+   "hc_se": 0.05787597525932958,
+   "t": 0.41919223940348616
+  },
+  {
+   "sample": "replication",
+   "floor": "white",
+   "group": "cool 3000-3800 K",
+   "n": 104,
+   "estimate": 0.17680966535677262,
+   "hc_se": 0.04558380636402514,
+   "t": 3.8787823891844027
+  },
+  {
+   "sample": "replication",
+   "floor": "white",
+   "group": "mid 3800-4800 K",
+   "n": 145,
+   "estimate": 0.09527535703036254,
+   "hc_se": 0.03467173353310038,
+   "t": 2.7479259708605324
+  },
+  {
+   "sample": "replication",
+   "floor": "white",
+   "group": "hot 4800-6000 K",
+   "n": 160,
+   "estimate": 0.0774783161946484,
+   "hc_se": 0.050598226036305094,
+   "t": 1.531245702943348
+  }
+ ],
+ "replication_predictions": [
+  {
+   "prediction": "1. trend +0.20..+0.35, rho>0.5",
+   "value": "+0.244 \u00b1 0.030, rho=0.67",
+   "met": true
+  },
+  {
+   "prediction": "2. hot slope within \u00b10.10",
+   "value": "+0.077 \u00b1 0.051",
+   "met": true
+  },
+  {
+   "prediction": "3. cool slope > +0.10",
+   "value": "+0.177 \u00b1 0.046",
+   "met": true
+  }
+ ],
+ "reconciliation": {
+  "agree": 44,
+  "total": 44
+ }
+}
