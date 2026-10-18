@@ -2,8 +2,6 @@
 
 **TESS photometry shows a fourfold decline in rotation-rate wander from Sun-like stars to fully convective M dwarfs**
 
-Aditrivaishnavi Balaji, BASIS Independent Silicon Valley. Sigma Xi IFoRE 2026 Student Research Competition, Physics & Astronomy. Abstract: [abstract.pdf](abstract.pdf), September 2026.
-
 ![Wander and noise floor against temperature](figures/fig6_wander_vs_temperature.png)
 
 ## The question
@@ -75,12 +73,6 @@ abstract.pdf       the conference abstract
 - `ratio_*`: wander / floor; `excess_*`: sqrt(wander² − floor²), in rad/day
 - `early_wander`, `late_wander`: wander in sectors 1–60 and 61 onward
 - `sector_periods`: the fitted period in each sector, as `sector:period`
-
-## Timeline
-
-- **1 September 2026.** The original 450-star sample was drawn from TARS before any light curve was measured. Every sector was refit and the first trend was measured with the shuffled-noise floor. In the afternoon, before any new stars were drawn, three predictions for a replication sample and a test with a red-noise-preserving (slid) floor were written down. The slid floor became the main one, and the 422-star replication met all three predictions. In the evening came the comparison with QLP light curves and the spot-evolution model.
-- **2 September 2026.** The step-by-step notebooks were written, and the abstract was uploaded to the IFoRE submission form.
-- **October 2026.** The notebooks were combined into the two here for the IFoRE presentation. The git history keeps the notebooks as they were on 2 September.
 
 ## Data and references
 
