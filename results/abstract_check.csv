@@ -1,0 +1,13 @@
+claim,recorded 2 Sep,this notebook,same
+"450 stars from 3,000 to 6,000 K",450.0,450.0,True
+"periods refitted in 4,317 sector light curves",4317.0,4317.0,True
+Sun-like stars wandered about four times more,4.0,4.252449684940778,True
+83% of Sun-like stars above 0.015 rad/day,0.8266666666666667,0.8266666666666667,True
+18% of mid-M dwarfs above 0.015 rad/day,0.18333333333333332,0.18333333333333332,True
+no detectable jump at the boundary (step t),-0.10943472996952704,-0.10943472996414942,True
+"the trend itself, dex per 1,000 K",0.12704302848519458,0.12704302848526133,True
+422-star sample reproduced the trend (slope),0.10885430890401342,0.10885430890405282,True
+independent light curves: same deviations (rho),0.596749207573689,0.596749207573689,True
+"model reproduces Sun-like wander, no shear",1.0458467873093338,1.045846787309492,True
+"model reproduces Sun-like wander, with shear",1.159965532540053,1.159965532540053,True
+model predicts 2.4 times too much for M dwarfs,2.425951235728539,2.425951235726713,True

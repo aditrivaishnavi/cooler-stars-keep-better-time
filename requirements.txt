@@ -1,13 +1,12 @@
-# Versions used for the runs recorded in results/ (Python 3.14.6). Newer versions should work.
+# Versions used for the results in this repository (Python 3.14). Newer versions should work.
 numpy==2.5.2
 scipy==1.18.1
 pandas==3.0.5
 matplotlib==3.11.1
 astropy==8.0.1
 astroquery==0.4.11
+requests
 butterpy==1.0.0
-# to run the notebooks
-ipykernel==7.3.0
-nbformat==5.11.1
-nbclient==0.11.0
-jupyterlab>=4
+jupyterlab
+ipykernel
+nbconvert
